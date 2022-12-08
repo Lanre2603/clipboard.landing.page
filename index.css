@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(./bg-header-mobile.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(77, 76, 76);
+}
+
+.logo {
+    margin: 5rem;
+}
+
+.text-one {
+    padding: 2rem;
+}
+
+.text-one p {
+    margin: 12px;
+    font-size: 17px;
+}
+
+.green {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: .3rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 2px #888;
+}
+
+.green:hover {
+    background-color: rgb(6, 135, 6, 0.7);
+}
+
+.blue {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: .3rem;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 2px #888;
+}
+
+.blue:hover {
+    background-color: rgb(5, 5, 245, 0.5);
+}
+
+.imgtext {
+    padding: 1rem;
+}
+
+.imgtext img {
+    width: 90%;
+}
+
+.text-one img {
+    width: 90%;
+}
+
+.text-o {
+    padding: 2rem;
+    font-size: 17px;
+    color: rgb(77, 76, 76);
+}
+
+.log{
+    padding: .5rem;
+}
+.bottom{
+    text-align: center;
+    background-color: gainsboro;
+    padding: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(144, 223, 26);
+}
+.link div{
+    padding: 1rem ;
+}
+
+svg{
+    fill:#4C545C;
+    margin: .5rem;
+}
+svg:hover{
+    fill: rgb(144, 223, 26);
+}
+
+/* DESKTOP VIEW */
+
+@media (min-width:768px) {
+    .text-one {
+        padding: 2rem;
+        color: rgb(77, 76, 76);
+    }
+    .text-one p {
+        width: 60%;
+        margin:.5rem auto;
+    }
+    /* .......KGRGB..................... */
+    .button {
+        justify-content: space-between;
+        padding: 0 30% ;
+        display: flex;
+    }
+    .green {
+        padding: 1rem;
+        width: 120%;
+    }
+    .blue {
+        padding: 1rem;
+        width: 120%;
+    }
+    /* .......KGRGB..................... */
+    .imgtext {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .imgtext img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .two {
+        width: 100%;
+        padding: 2rem 0 2rem 0;
+    }
+
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .text-o{
+        width: 50%;
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
